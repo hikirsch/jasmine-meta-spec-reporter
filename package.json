@@ -1,0 +1,35 @@
+{
+  "name": "jasmine-meta-spec-reporter",
+  "version": "0.0.1-alpha.3",
+  "description": "A meta and screenshot reporter per spec file for Jasmine.",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hikirsch/jasmine-meta-spec-reporter"
+  },
+  "author": {
+    "name": "Adam S. Kirschner",
+    "email": "accounts@adamskirschner.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hikirsch/jasmine-meta-spec-reporter/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/hikirsch/jasmine-meta-spec-reporter",
+  "dependencies": {
+    "fs-extra": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^3.0.3",
+    "@types/jasmine": "^2.5.53",
+    "@types/node": "^8.0.14",
+    "typescript": "^2.4.1"
+  }
+}
